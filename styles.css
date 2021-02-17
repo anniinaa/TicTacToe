@@ -2,13 +2,13 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgba(194, 170, 135, 0.251);
+  background-color: rgba(206, 131, 20, 0.251);
 }
 * {
   box-sizing: border-box;
 }
 h3 {
-  font-size: 40px;
+  font-size: 20px;
 }
 .container {
   padding: 40px;
