@@ -1,0 +1,48 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(194, 170, 135, 0.251);
+}
+* {
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 40px;
+}
+.container {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#wrapper {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+#wrapper div {
+  font-family: "Mali", cursive;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  background-color: rgba(144, 36, 144, 0.911);
+  color: white;
+  font-size: 18px;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-size: 120px;
+}
