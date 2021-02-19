@@ -2,7 +2,7 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgba(206, 131, 20, 0.251);
+  background-color: rgba(213, 179, 128, 0.251);
 }
 * {
   box-sizing: border-box;
@@ -11,8 +11,7 @@ h3 {
   font-size: 20px;
 }
 .container {
-  padding: 40px;
-  height: 100vh;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +21,7 @@ h3 {
   width: 450px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 10px;
   padding-top: 30px;
 }
 #wrapper div {

@@ -35,12 +35,6 @@ const boxClicked = (e) => {
 
     console.log("current", currentPlayer);
     console.log("e.target.style", e.target);
-    if (e.target.innerText === "X") {
-      e.target.style.color = "red";
-    }
-    if (e.target.innerText === "O") {
-      e.target.style.color = "black";
-    }
     if (playerHasWon()) {
       playText.innerText = `${currentPlayer} has won !`;
       if (window.confirm(currentPlayer + " has won!!")) {
@@ -48,7 +42,7 @@ const boxClicked = (e) => {
       return;
     }
     if (isCatsGame(spaces)) {
-      alert("Cat's game!!");
+      alert("Try again!!");
     }
 
     currentPlayer = currentPlayer === X_text ? O_text : X_text;
