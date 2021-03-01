@@ -44,3 +44,21 @@ button {
   color: black;
   font-size: 120px;
 }
+
+@media screen and (max-width: 426px) {
+  h3{
+  font-size: 15px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  button{
+    padding: 10px;
+    font-size: 15px;
+  }
+  #wrapper{
+    margin-top: 0px;
+  }
+
+}
+
